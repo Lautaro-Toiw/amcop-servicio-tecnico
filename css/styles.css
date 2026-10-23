@@ -122,6 +122,10 @@ h1,h2,h3 { line-height:1.08; font-weight:700; }
 .contact-form input,.contact-form textarea { width:100%; padding:13px 14px; color:var(--ink); background:rgba(255,255,255,.7); border:1px solid rgba(120,136,155,.35); border-radius:14px; font:inherit; resize:vertical; }
 .contact-form input:focus,.contact-form textarea:focus { outline:2px solid #83b8fa; border-color:var(--blue); }
 .contact-form .button { justify-self:start; }
+.contact-form .button:disabled { opacity:.7; cursor:wait; }
+.form-status { margin:0; padding:12px 14px; font-size:14px; font-weight:600; border-radius:14px; border:1px solid transparent; }
+.form-status.is-success { color:#0f5132; background:#d1f2e1; border-color:#9fd9bb; }
+.form-status.is-error { color:#842029; background:#fbe1e3; border-color:#f1aeb5; }
 .location-hero { display:grid; grid-template-columns:1fr 1fr; gap:90px; padding:100px 0 92px; align-items:end; }
 .location-details { display:grid; gap:24px; padding:30px; border:1px solid rgba(255,255,255,.8); border-left:4px solid var(--blue); border-radius:var(--radius-lg); background:var(--glass); box-shadow:0 10px 24px rgba(25,66,104,.06); backdrop-filter:blur(16px) saturate(120%); }
 .location-details div { display:grid; gap:5px; }
